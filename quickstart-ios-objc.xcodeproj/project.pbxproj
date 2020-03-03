@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137DF21223E84FDD0039CE86 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = 137DF21123E84FDD0039CE86 /* effects */; };
+		137DF21923E85CB20039CE86 /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137DF21823E85CA90039CE86 /* BanubaSdk.framework */; };
+		137DF21A23E85CB20039CE86 /* BanubaSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 137DF21823E85CA90039CE86 /* BanubaSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1381D6E423E4476000948E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1381D6E323E4476000948E14 /* AppDelegate.m */; };
+		1381D6EA23E4476000948E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1381D6E923E4476000948E14 /* ViewController.m */; };
+		1381D6ED23E4476000948E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1381D6EB23E4476000948E14 /* Main.storyboard */; };
+		1381D6F523E4476100948E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1381D6F423E4476100948E14 /* main.m */; };
+		1381D6FC23E4584A00948E14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1381D6FB23E4584A00948E14 /* Default-568h@2x.png */; };
+		1381D71823E45DA700948E14 /* BanubaEffectPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1381D70123E45C7900948E14 /* BanubaEffectPlayer.framework */; };
+		1381D71923E45DA700948E14 /* BanubaEffectPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1381D70123E45C7900948E14 /* BanubaEffectPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		137DF21723E85CA90039CE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137DF21323E85CA90039CE86 /* BanubaSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57AB757820FF4A240013C11F;
+			remoteInfo = BanubaSdk;
+		};
+		E52FCA5423FE871300C0AD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137DF21323E85CA90039CE86 /* BanubaSdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AB757720FF4A240013C11F;
+			remoteInfo = BanubaSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1381D71723E45D9900948E14 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				137DF21A23E85CB20039CE86 /* BanubaSdk.framework in Embed Frameworks */,
+				1381D71923E45DA700948E14 /* BanubaEffectPlayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		137DF21123E84FDD0039CE86 /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effects; sourceTree = "<group>"; };
+		137DF21323E85CA90039CE86 /* BanubaSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BanubaSdk.xcodeproj; path = BanubaSdk/BanubaSdk.xcodeproj; sourceTree = "<group>"; };
+		1381D6DF23E4476000948E14 /* quickstart-ios-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quickstart-ios-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1381D6E223E4476000948E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1381D6E323E4476000948E14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1381D6E823E4476000948E14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1381D6E923E4476000948E14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1381D6EC23E4476000948E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1381D6F323E4476100948E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1381D6F423E4476100948E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1381D6FB23E4584A00948E14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1381D6FD23E45A2D00948E14 /* BanubaClientToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BanubaClientToken.h; sourceTree = "<group>"; };
+		1381D70123E45C7900948E14 /* BanubaEffectPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BanubaEffectPlayer.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1381D6DC23E4476000948E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137DF21923E85CB20039CE86 /* BanubaSdk.framework in Frameworks */,
+				1381D71823E45DA700948E14 /* BanubaEffectPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137DF21423E85CA90039CE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137DF21823E85CA90039CE86 /* BanubaSdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1381D6D623E4476000948E14 = {
+			isa = PBXGroup;
+			children = (
+				1381D6E123E4476000948E14 /* quickstart-ios-objc */,
+				1381D6E023E4476000948E14 /* Products */,
+				1381D70023E45C3000948E14 /* Frameworks */,
+				137DF21123E84FDD0039CE86 /* effects */,
+			);
+			sourceTree = "<group>";
+		};
+		1381D6E023E4476000948E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1381D6DF23E4476000948E14 /* quickstart-ios-objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1381D6E123E4476000948E14 /* quickstart-ios-objc */ = {
+			isa = PBXGroup;
+			children = (
+				1381D6FD23E45A2D00948E14 /* BanubaClientToken.h */,
+				1381D6E223E4476000948E14 /* AppDelegate.h */,
+				1381D6E323E4476000948E14 /* AppDelegate.m */,
+				1381D6E823E4476000948E14 /* ViewController.h */,
+				1381D6E923E4476000948E14 /* ViewController.m */,
+				1381D6F423E4476100948E14 /* main.m */,
+				1381D6F323E4476100948E14 /* Info.plist */,
+				1381D6EB23E4476000948E14 /* Main.storyboard */,
+				1381D6FB23E4584A00948E14 /* Default-568h@2x.png */,
+			);
+			path = "quickstart-ios-objc";
+			sourceTree = "<group>";
+		};
+		1381D70023E45C3000948E14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137DF21323E85CA90039CE86 /* BanubaSdk.xcodeproj */,
+				1381D70123E45C7900948E14 /* BanubaEffectPlayer.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1381D6DE23E4476000948E14 /* quickstart-ios-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1381D6F823E4476100948E14 /* Build configuration list for PBXNativeTarget "quickstart-ios-objc" */;
+			buildPhases = (
+				1381D6DB23E4476000948E14 /* Sources */,
+				1381D6DC23E4476000948E14 /* Frameworks */,
+				1381D6DD23E4476000948E14 /* Resources */,
+				1381D71723E45D9900948E14 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52FCA5523FE871300C0AD07 /* PBXTargetDependency */,
+			);
+			name = "quickstart-ios-objc";
+			productName = "quickstart-ios-objc";
+			productReference = 1381D6DF23E4476000948E14 /* quickstart-ios-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1381D6D723E4476000948E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Banuba;
+				TargetAttributes = {
+					1381D6DE23E4476000948E14 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1381D6DA23E4476000948E14 /* Build configuration list for PBXProject "quickstart-ios-objc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1381D6D623E4476000948E14;
+			productRefGroup = 1381D6E023E4476000948E14 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 137DF21423E85CA90039CE86 /* Products */;
+					ProjectRef = 137DF21323E85CA90039CE86 /* BanubaSdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1381D6DE23E4476000948E14 /* quickstart-ios-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		137DF21823E85CA90039CE86 /* BanubaSdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BanubaSdk.framework;
+			remoteRef = 137DF21723E85CA90039CE86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1381D6DD23E4476000948E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137DF21223E84FDD0039CE86 /* effects in Resources */,
+				1381D6ED23E4476000948E14 /* Main.storyboard in Resources */,
+				1381D6FC23E4584A00948E14 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1381D6DB23E4476000948E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1381D6EA23E4476000948E14 /* ViewController.m in Sources */,
+				1381D6E423E4476000948E14 /* AppDelegate.m in Sources */,
+				1381D6F523E4476100948E14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52FCA5523FE871300C0AD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BanubaSdk;
+			targetProxy = E52FCA5423FE871300C0AD07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1381D6EB23E4476000948E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1381D6EC23E4476000948E14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1381D6F623E4476100948E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1381D6F723E4476100948E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1381D6F923E4476100948E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "quickstart-ios-objc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.example.quickstart-ios-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		1381D6FA23E4476100948E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "quickstart-ios-objc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.example.quickstart-ios-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1381D6DA23E4476000948E14 /* Build configuration list for PBXProject "quickstart-ios-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1381D6F623E4476100948E14 /* Debug */,
+				1381D6F723E4476100948E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1381D6F823E4476100948E14 /* Build configuration list for PBXNativeTarget "quickstart-ios-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1381D6F923E4476100948E14 /* Debug */,
+				1381D6FA23E4476100948E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1381D6D723E4476000948E14 /* Project object */;
+}
