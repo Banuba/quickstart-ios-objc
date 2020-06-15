@@ -5,6 +5,7 @@
 @interface ViewController ()
 
 @property(strong, nonatomic) BanubaSdkManager* sdkManager;
+@property(strong, nonatomic) BNBEffect* effect;
 @property(weak, nonatomic) IBOutlet EffectPlayerView* effectView;
 
 @end
@@ -25,7 +26,7 @@
 
     [self.sdkManager.input startCamera];
 
-    [self.sdkManager.effectPlayer loadEffect:@"UnluckyWitch"];
+    self.effect = [self.sdkManager loadEffect:@"UnluckyWitch" synchronous:false];
 }
 
 - (void)viewWillAppear:(BOOL)animated
