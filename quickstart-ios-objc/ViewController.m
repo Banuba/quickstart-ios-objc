@@ -22,7 +22,7 @@
     [self.sdkManager setupWithConfiguration:[EffectPlayerConfiguration new]];
     self.effectView.effectPlayer = self.sdkManager.effectPlayer;
     [self.sdkManager setRenderTargetWithLayer:(CAEAGLLayer*) self.effectView.layer
-                                  contentMode:(enum RenderContentMode) RenderContentModeResizeAspectFill
+                                  contentMode:RenderContentModeResizeAspectFill
                           playerConfiguration:nil];
 
     [self.sdkManager.input startCamera];
