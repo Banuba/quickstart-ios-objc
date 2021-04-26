@@ -20,14 +20,13 @@
     }
 
     [self.sdkManager setupWithConfiguration:[EffectPlayerConfiguration new]];
-    self.effectView.effectPlayer = self.sdkManager.effectPlayer;
-    [self.sdkManager setRenderTargetWithLayer:(CAEAGLLayer*) self.effectView.layer
+    [self.sdkManager setRenderTargetWithView:self.effectView 
                                   contentMode:RenderContentModeResizeAspectFill
                           playerConfiguration:nil];
 
     [self.sdkManager.input startCamera];
 
-    self.effect = [self.sdkManager loadEffect:@"UnluckyWitch" synchronous:false];
+    self.effect = [self.sdkManager loadEffect:@"TrollGrandma" synchronous:false];
 }
 
 - (void)viewWillAppear:(BOOL)animated
