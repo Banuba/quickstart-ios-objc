@@ -20,9 +20,7 @@
     }
 
     [self.sdkManager setupWithConfiguration:[EffectPlayerConfiguration new]];
-    [self.sdkManager setRenderTargetWithView:self.effectView 
-                                  contentMode:RenderContentModeResizeAspectFill
-                          playerConfiguration:nil];
+    [self.sdkManager setRenderTargetWithView:self.effectView playerConfiguration:nil];
 
     [self.sdkManager.input startCamera];
 
