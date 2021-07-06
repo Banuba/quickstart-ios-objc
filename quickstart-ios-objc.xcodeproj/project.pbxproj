@@ -348,6 +348,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				EXCLUDED_ARCHS = armv7;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				INFOPLIST_FILE = "quickstart-ios-objc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -367,6 +368,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				EXCLUDED_ARCHS = armv7;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				INFOPLIST_FILE = "quickstart-ios-objc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
