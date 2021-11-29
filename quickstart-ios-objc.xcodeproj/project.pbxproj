@@ -7,37 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1315CE2A25B5B24C002ED0D6 /* BanubaEffectPlayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1315CE2225B5B237002ED0D6 /* BanubaEffectPlayer.xcframework */; };
-		1315CE2B25B5B24C002ED0D6 /* BanubaEffectPlayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1315CE2225B5B237002ED0D6 /* BanubaEffectPlayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		137DF21223E84FDD0039CE86 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = 137DF21123E84FDD0039CE86 /* effects */; };
 		1381D6E423E4476000948E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1381D6E323E4476000948E14 /* AppDelegate.m */; };
 		1381D6EA23E4476000948E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1381D6E923E4476000948E14 /* ViewController.m */; };
 		1381D6ED23E4476000948E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1381D6EB23E4476000948E14 /* Main.storyboard */; };
 		1381D6F523E4476100948E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1381D6F423E4476100948E14 /* main.m */; };
 		1381D6FC23E4584A00948E14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1381D6FB23E4584A00948E14 /* Default-568h@2x.png */; };
-		703BE70025EE8977007E6D7B /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703BE6FE25EE896D007E6D7B /* BanubaSdk.framework */; };
-		703BE70125EE8977007E6D7B /* BanubaSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 703BE6FE25EE896D007E6D7B /* BanubaSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		70AB146626441F850081EEE1 /* BanubaEffectPlayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */; };
+		70AB146726441F850081EEE1 /* BanubaEffectPlayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		70AB146926441F8C0081EEE1 /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB146426441F650081EEE1 /* BanubaSdk.framework */; };
+		70AB146A26441F8C0081EEE1 /* BanubaSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB146426441F650081EEE1 /* BanubaSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		703BE6FD25EE896D007E6D7B /* PBXContainerItemProxy */ = {
+		70AB146326441F650081EEE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 703BE6F925EE896D007E6D7B /* BanubaSdk.xcodeproj */;
+			containerPortal = 70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 57AB757820FF4A240013C11F;
+			remoteInfo = BanubaSdk;
+		};
+		70AB147126441FA70081EEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AB757720FF4A240013C11F;
 			remoteInfo = BanubaSdk;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1381D71723E45D9900948E14 /* Embed Frameworks */ = {
+		13FC820826371C4700B80E53 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				703BE70125EE8977007E6D7B /* BanubaSdk.framework in Embed Frameworks */,
-				1315CE2B25B5B24C002ED0D6 /* BanubaEffectPlayer.xcframework in Embed Frameworks */,
+				70AB146A26441F8C0081EEE1 /* BanubaSdk.framework in Embed Frameworks */,
+				70AB146726441F850081EEE1 /* BanubaEffectPlayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1315CE2225B5B237002ED0D6 /* BanubaEffectPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BanubaEffectPlayer.xcframework; sourceTree = "<group>"; };
 		137DF21123E84FDD0039CE86 /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effects; sourceTree = "<group>"; };
 		1381D6DF23E4476000948E14 /* quickstart-ios-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quickstart-ios-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1381D6E223E4476000948E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,7 +63,8 @@
 		1381D6F423E4476100948E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1381D6FB23E4584A00948E14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1381D6FD23E45A2D00948E14 /* BanubaClientToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BanubaClientToken.h; sourceTree = "<group>"; };
-		703BE6F925EE896D007E6D7B /* BanubaSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BanubaSdk.xcodeproj; sourceTree = "<group>"; };
+		70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BanubaEffectPlayer.xcframework; sourceTree = "<group>"; };
+		70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BanubaSdk.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703BE70025EE8977007E6D7B /* BanubaSdk.framework in Frameworks */,
-				1315CE2A25B5B24C002ED0D6 /* BanubaEffectPlayer.xcframework in Frameworks */,
+				70AB146926441F8C0081EEE1 /* BanubaSdk.framework in Frameworks */,
+				70AB146626441F850081EEE1 /* BanubaEffectPlayer.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,16 +117,16 @@
 		1381D70023E45C3000948E14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				703BE6F925EE896D007E6D7B /* BanubaSdk.xcodeproj */,
-				1315CE2225B5B237002ED0D6 /* BanubaEffectPlayer.xcframework */,
+				70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */,
+				70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		703BE6FA25EE896D007E6D7B /* Products */ = {
+		70AB146026441F650081EEE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				703BE6FE25EE896D007E6D7B /* BanubaSdk.framework */,
+				70AB146426441F650081EEE1 /* BanubaSdk.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,11 +141,12 @@
 				1381D6DB23E4476000948E14 /* Sources */,
 				1381D6DC23E4476000948E14 /* Frameworks */,
 				1381D6DD23E4476000948E14 /* Resources */,
-				1381D71723E45D9900948E14 /* Embed Frameworks */,
+				13FC820826371C4700B80E53 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70AB147226441FA70081EEE1 /* PBXTargetDependency */,
 			);
 			name = "quickstart-ios-objc";
 			productName = "quickstart-ios-objc";
@@ -172,8 +180,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 703BE6FA25EE896D007E6D7B /* Products */;
-					ProjectRef = 703BE6F925EE896D007E6D7B /* BanubaSdk.xcodeproj */;
+					ProductGroup = 70AB146026441F650081EEE1 /* Products */;
+					ProjectRef = 70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -184,11 +192,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		703BE6FE25EE896D007E6D7B /* BanubaSdk.framework */ = {
+		70AB146426441F650081EEE1 /* BanubaSdk.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = BanubaSdk.framework;
-			remoteRef = 703BE6FD25EE896D007E6D7B /* PBXContainerItemProxy */;
+			remoteRef = 70AB146326441F650081EEE1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -219,6 +227,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		70AB147226441FA70081EEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BanubaSdk;
+			targetProxy = 70AB147126441FA70081EEE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		1381D6EB23E4476000948E14 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -235,6 +251,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					arm64,
+					x86_64,
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -268,6 +288,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -294,6 +315,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					arm64,
+					x86_64,
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -327,6 +352,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -359,7 +385,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.example.quickstart-ios-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -379,7 +404,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.example.quickstart-ios-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
