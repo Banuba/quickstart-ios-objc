@@ -22,6 +22,8 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Use camera to render face AR effects</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Use access to save photo</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

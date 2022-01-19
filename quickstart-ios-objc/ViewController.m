@@ -42,4 +42,21 @@
     [self.sdkManager stopEffectPlayer];
 }
 
+- (IBAction)PushTakePhotoButton:(UIButton *)sender {
+    [self.sdkManager.input setCameraSessionType:CameraSessionTypeFrontCameraPhotoSession];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        CameraPhotoSettings *setting = [[CameraPhotoSettings alloc] initWithUseStabilization:true flashMode:AVCaptureFlashModeOff];
+        [self.sdkManager makeCameraPhotoWithCameraSettings:setting
+                                           flipFrontCamera:true
+                                           srcImageHandler:nil
+                                                completion:^(UIImage* img) {
+            if (img != nil) {
+                NSLog(@"Take photo");
+                UIImageWriteToSavedPhotosAlbum(img, nil, nil, nil);
+            }
+            [self.sdkManager.input setCameraSessionType:CameraSessionTypeFrontCameraVideoSession];
+        }];
+    });
+}
 @end
