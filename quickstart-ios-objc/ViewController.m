@@ -42,10 +42,12 @@
     [self.sdkManager stopEffectPlayer];
 }
 
-- (IBAction)PushTakePhotoButton:(UIButton *)sender {
-    [self.sdkManager.input setCameraSessionType:CameraSessionTypeFrontCameraPhotoSession];
+- (IBAction)PushTakePhotoButton:(UIButton *)sender
+{
+    [self.sdkManager stopEffectPlayer];
+    [self.sdkManager removeRenderTarget];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+    [self.sdkManager.input setCameraSessionType:CameraSessionTypeFrontCameraPhotoSession completion:^{
         CameraPhotoSettings *setting = [[CameraPhotoSettings alloc] initWithUseStabilization:true flashMode:AVCaptureFlashModeOff];
         [self.sdkManager makeCameraPhotoWithCameraSettings:setting
                                            flipFrontCamera:true
@@ -54,9 +56,15 @@
             if (img != nil) {
                 NSLog(@"Take photo");
                 UIImageWriteToSavedPhotosAlbum(img, nil, nil, nil);
+                img = nil;
             }
             [self.sdkManager.input setCameraSessionType:CameraSessionTypeFrontCameraVideoSession];
         }];
-    });
+    }];
+
+    [self.sdkManager setRenderTargetWithLayer:(CAEAGLLayer*) self.effectView.layer
+                                  contentMode:RenderContentModeResizeAspectFill
+                          playerConfiguration:nil];
+    [self.sdkManager startEffectPlayer];
 }
 @end
