@@ -1,4 +1,5 @@
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 #import <BanubaEffectPlayer/BanubaEffectPlayer.h>
 #import <BanubaSdk/BanubaSdk-Swift.h>
 
