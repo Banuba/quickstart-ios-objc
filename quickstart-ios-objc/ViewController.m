@@ -1,6 +1,6 @@
 #import "ViewController.h"
-#import <BanubaEffectPlayer/BanubaEffectPlayer.h>
-#import <BanubaSdk/BanubaSdk-Swift.h>
+#import <BNBSdkApi/BNBSdkApi-Swift.h>
+#import <BNBSdkCore/BNBSdkCore.h>
 
 @interface ViewController ()
 
