@@ -5,5 +5,5 @@ source 'https://github.com/sdk-banuba/banuba-sdk-podspecs.git'
 
 target 'quickstart-ios-objc' do
   use_frameworks!
-  pod 'BanubaSdk', '1.3.1-202-g4bb89079d5'
+  pod 'BanubaSdk', '1.3.1-206-gbcc59dbf5b'
 end
