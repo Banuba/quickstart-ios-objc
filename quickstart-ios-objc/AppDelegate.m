@@ -1,8 +1,8 @@
 #import "AppDelegate.h"
 
 #import "BanubaClientToken.h"
-#import <BanubaSdk/BanubaSdk-Swift.h>
-#import <BanubaEffectPlayer/BanubaEffectPlayer.h>
+#import <BNBSdkApi/BNBSdkApi-Swift.h>
+#import <BNBSdkCore/BNBSdkCore.h>
 
 @interface AppDelegate ()
 
@@ -15,8 +15,8 @@
     didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
     [BanubaSdkManager
-        initializeWithResourcePath:@[[NSBundle.mainBundle.bundlePath
-                                       stringByAppendingString:@"/effects"]]
+        initializeWithResourcePath:@[[NSBundle.mainBundle.bundlePath stringByAppendingString:@"/bnb-resources"],
+                                     [NSBundle.mainBundle.bundlePath stringByAppendingString:@"/effects"]]
                  clientTokenString:BNB_CLIENT_TOKEN
                           logLevel:BNBSeverityLevelInfo];
     return YES;

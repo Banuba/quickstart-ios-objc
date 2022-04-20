@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,28 +13,7 @@
 		1381D6ED23E4476000948E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1381D6EB23E4476000948E14 /* Main.storyboard */; };
 		1381D6F523E4476100948E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1381D6F423E4476100948E14 /* main.m */; };
 		1381D6FC23E4584A00948E14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1381D6FB23E4584A00948E14 /* Default-568h@2x.png */; };
-		70AB146626441F850081EEE1 /* BanubaEffectPlayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */; };
-		70AB146726441F850081EEE1 /* BanubaEffectPlayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		70AB146926441F8C0081EEE1 /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB146426441F650081EEE1 /* BanubaSdk.framework */; };
-		70AB146A26441F8C0081EEE1 /* BanubaSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB146426441F650081EEE1 /* BanubaSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		70AB146326441F650081EEE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 57AB757820FF4A240013C11F;
-			remoteInfo = BanubaSdk;
-		};
-		70AB147126441FA70081EEE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 57AB757720FF4A240013C11F;
-			remoteInfo = BanubaSdk;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		13FC820826371C4700B80E53 /* Embed Frameworks */ = {
@@ -43,8 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				70AB146A26441F8C0081EEE1 /* BanubaSdk.framework in Embed Frameworks */,
-				70AB146726441F850081EEE1 /* BanubaEffectPlayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,8 +40,6 @@
 		1381D6F423E4476100948E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1381D6FB23E4584A00948E14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1381D6FD23E45A2D00948E14 /* BanubaClientToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BanubaClientToken.h; sourceTree = "<group>"; };
-		70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BanubaEffectPlayer.xcframework; sourceTree = "<group>"; };
-		70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BanubaSdk.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70AB146926441F8C0081EEE1 /* BanubaSdk.framework in Frameworks */,
-				70AB146626441F850081EEE1 /* BanubaEffectPlayer.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,18 +90,8 @@
 		1381D70023E45C3000948E14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				70AB145D26441F600081EEE1 /* BanubaEffectPlayer.xcframework */,
-				70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */,
 			);
 			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		70AB146026441F650081EEE1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				70AB146426441F650081EEE1 /* BanubaSdk.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				70AB147226441FA70081EEE1 /* PBXTargetDependency */,
 			);
 			name = "quickstart-ios-objc";
 			productName = "quickstart-ios-objc";
@@ -178,28 +140,12 @@
 			mainGroup = 1381D6D623E4476000948E14;
 			productRefGroup = 1381D6E023E4476000948E14 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 70AB146026441F650081EEE1 /* Products */;
-					ProjectRef = 70AB145F26441F650081EEE1 /* BanubaSdk.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1381D6DE23E4476000948E14 /* quickstart-ios-objc */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		70AB146426441F650081EEE1 /* BanubaSdk.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = BanubaSdk.framework;
-			remoteRef = 70AB146326441F650081EEE1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1381D6DD23E4476000948E14 /* Resources */ = {
@@ -226,14 +172,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		70AB147226441FA70081EEE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BanubaSdk;
-			targetProxy = 70AB147126441FA70081EEE1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1381D6EB23E4476000948E14 /* Main.storyboard */ = {
@@ -374,10 +312,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				EXCLUDED_ARCHS = armv7;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				INFOPLIST_FILE = "quickstart-ios-objc/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,10 +329,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				EXCLUDED_ARCHS = armv7;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				INFOPLIST_FILE = "quickstart-ios-objc/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
